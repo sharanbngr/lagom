@@ -110,8 +110,14 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1, h2, h3, h4 {
+	h1, h2, h3 {
 		font-weight: 350;
+		color: #666;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-weight: 500;
 		color: #666;
 		line-height: 1.5em;
 	}
@@ -2258,7 +2264,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
